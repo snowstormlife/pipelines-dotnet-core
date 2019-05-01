@@ -1,6 +1,9 @@
 pool:
   name: blizzLinuxPool
 
+variables:
+  BuildConfiguration: debug
+
 steps:
 - task: DotNetCoreCLI@2
   displayName: Restore
